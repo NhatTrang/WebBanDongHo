@@ -1,0 +1,138 @@
+.product_list{
+	min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.product_padding {
+	padding: 15px 6px;
+}
+.tr {
+	border-bottom: 1px solid #ececec;
+    line-height: 1.3;
+}
+.product_amount{
+	font-size: 15px;
+    width: 65px;
+    padding-left: 40px;
+}
+.product_title{
+	font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.005px;
+    
+}
+.product_border{
+	border-bottom: 3px solid #ececec;
+}
+.product_name{
+	
+	font-size: 1.4rem;
+    font-weight: 300;
+    margin: 10px 10px 6px;
+    overflow: hidden;
+}
+.product_width{
+	width: 200px;
+}
+.product_price{
+	font-size: 15px;
+    font-weight: 600;
+}
+.product_img{
+	height: 100px;
+    width: 100px;
+}
+.product_Tong{
+	padding: 15px 0;
+}
+.produc_money{
+	border: 3px solid #cbba9c;
+    height: 350px;
+    width: 350px;
+}
+.produc_money-table{
+	margin: 0 15px;
+}
+.product_chung{
+	display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.product_size{
+	font-size: 15px;
+    font-weight: 500;
+}
+.product_information{
+	font-size: 16px;
+    font-weight: 200;
+    float: left;
+}
+.product_check{
+	cursor: pointer;
+}
+
+.product_remove{
+	background: none;
+    border-radius: 24px;
+    padding: 4px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    color: #ccc;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.product_insert{
+	border: 2px solid #cbba9c;
+    background: none;
+    padding: 6px 7px 3px 7px;
+    font-size: 12px;
+    color: #cbba9c;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.product_insert:hover{
+	background: var(--blandmomentum-color);
+	color: var(--while-color);
+}
+.product_remove-check{
+	font-size: 15px;
+    padding: 11px 7px 6px 7px;
+    border: 2px solid #cbba9c;
+    background: none;
+    color: #cbba9c;
+    margin-left: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.product_home{
+	padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    background: #cbba9c;
+    color: #fff;
+    font-weight: 600;
+}
+.product_remove-check:hover{
+	background: var(--blandmomentum-color);
+	color: var(--while-color);
+}
+.product_home:hover{
+	background: var(--momentum-color);
+	color: var(--while-color);
+}
+.product_pay{
+	margin: 20px 0;
+}
+.product_pay-2{
+	margin: 17px 0 0 25px;
+}
+.product_pay-cart {
+	border: none;
+    background: #d26e4b;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}

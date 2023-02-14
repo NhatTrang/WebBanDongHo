@@ -1,0 +1,197 @@
+:root{
+    --while-color: #fff;
+    --momentum-color:#c89979;
+    --black-color:#000;
+    --blandmomentum-color:#cbba9c;
+    --primary-color:#333333;
+
+    --header-heigth:150px;
+}
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/* Resposive */
+.grip{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grip__full-width{
+    width: 100%;
+}
+.grip__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.grip_column{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.grip_column3{
+    width: 376px;
+}
+.grip__column-2-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 40px;
+    width: 19.1%;
+}
+.grip__column-10{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+}
+/* header navbar */
+.header_magin{
+    margin: 0 13px;
+}
+.transfom{
+	text-transform: uppercase;
+}
+.home_product-a{
+    color: var(--black-color);
+    text-decoration: none;
+    text-align: center;
+}
+.home_product-item_img{
+    padding-top: 100%;
+    height: auto;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+}
+.home_product-span{
+    padding: 10px 0 20px 0;
+}
+.home_product-p_name{
+    margin: 2px 0 10px 0;
+    line-height: 1.8rem;
+    height: 3.6rem;
+    margin: 10px 10px 6px;
+    overflow: hidden;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+
+.home_product-span_name{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.home_product-p_price{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.home_product-span_price{
+
+}
+.pagiantion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.pagiantion-item{
+    margin: 0 14px;
+}
+.pagiantion-item--active .pagiantion-item__link{
+    background-color: var(--blandmomentum-color);
+    color: var(--while-color);
+}
+.pagiantion-item--active .pagiantion-item__link:hover{
+    background-color: var(--momentum-color);
+}
+.pagiantion-item__link{
+    border: none;
+    --height:30px;
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #939393;
+    min-width: 40px;
+    height: var(--height);
+    line-height: var(--height);
+    text-align: center;
+    border-radius: 2px;
+}
+/* list product */
+.product_cart-item1-name{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text-color);
+    counter-reset: var(--text-color);
+    line-height: 1.8rem;
+    height: 3.6rem;
+    margin: 10px 10px 6px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+.home-product-item__price{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 6px;
+    color: var(--black-color);
+    font-weight: 500;
+}
+.btn{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.btn-mua{
+    background-color: var(--blandmomentum-color);
+    color: var(--while-color);
+    border-radius: 2px;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: none;
+    align-items: center;
+}
+.home_product-cart{
+    display: block;
+    position: relative;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+    transition: transform  linear 0.3s;
+    will-change: transform;
+}
+.home_product-cart:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 1px 30px 0 rgb(0 0 0 / .1);
+}
+/* register */
+.general{
+    display: block;
+    font-size: 25px;
+    font-weight: 300;
+}
+.register_input-name{
+    height: 20px;
+    width: 448px;
+    display: block;
+    font-size: 1.8rem;
+    border-radius: 15px;
+    border: 1px solid var(--primary-color);
+    padding: 15px;
+}

@@ -1,0 +1,82 @@
+.container_loai-h1{
+	margin: 50px 0;
+    font-size: 35px;
+    text-align: center;
+}
+.container_loai-header{
+	font-size: 18px;
+}
+.container_loai-body{
+	font-size: 18px;
+    font-weight: 300;
+}
+.container_loai-body-a{
+	color: var(--blandmomentum-color);
+	border: none;
+    background: none;
+}
+.container_loai-button{
+	float: right;
+    border: 2px solid var(--blandmomentum-color);
+    background: none;
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: var(--blandmomentum-color);
+    padding: 10px;
+}
+.container_loai-button:hover{
+	background: var(--blandmomentum-color);
+	color:var(--while-color);
+}
+.container_ThemLoai{
+	text-align: center;
+}
+.input_maloai{
+	box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 0 0.75em;
+    height: 2.507em;
+    font-size: .97em;
+    border-radius: 0;
+    vertical-align: middle;
+    background-color: #fff;
+    margin: 0 0 20px 15px;
+    width: 350px;
+}
+.input_maloai:hover{
+	box-shadow: 0 0 5px #ccc;
+    opacity: 1;
+    outline: 0;
+    color: #333;
+    background-color: #fff;
+    border: none;
+}
+.container_loai-button-a{
+	border: 2px solid var(--blandmomentum-color);
+    background: none;
+    margin: 30px 40px 0 0;
+    font-size: 15px;
+    color: var(--blandmomentum-color);
+    padding: 10px;
+}
+.container_loai-button-a:hover{
+	background: var(--blandmomentum-color);
+	color:var(--while-color);
+}
+.input_label{
+	margin-right: 15px;
+}
+.container_addsp{
+	margin-left: 300px;
+}
+.container_sanpham{
+	display: flex;
+   	justify-content: flex-start;
+    margin-bottom: 25px;
+}
+.container_sanpham-input{
+	width: 50%;
+}
+.left{
+	margin-right: 250px;
+}

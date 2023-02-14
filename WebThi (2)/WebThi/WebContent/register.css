@@ -1,0 +1,39 @@
+body{
+    background-color: var(--primary-color);
+}
+.register{
+    position: relative;
+    height: 800px;
+    width: 480px;
+    border: 3px solid var(--blandmomentum-color);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: var(--while-color);
+    padding: 0 20px;
+}
+.login_cart{  
+    font-size: 28px;
+    margin: 20px 0 0 0;
+    font-weight: 600;
+}
+.register_username{
+    margin: 30px 0 8px 10px;
+}
+.register_cart{
+    margin: 15px 0 8px 10px;
+}
+.btn{
+    margin-top: 30px;
+    width: 100%;
+    font-size: 2.2rem;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 11px;
+    background-color:var(--blandmomentum-color);
+    border: none;
+    color: var(--while-color);
+}
+.btn:hover{
+    background-color: var(--momentum-color);
+}

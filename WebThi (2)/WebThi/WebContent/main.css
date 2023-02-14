@@ -1,0 +1,316 @@
+.header{
+    height: var(--header-heigth);
+    background-color: var(--primary-color);
+}
+.header_navbar{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_navbar-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.header_navbar-li{
+    color: var(--while-color);
+}
+.header_navbar-link{
+    display: block;
+    color: var(--while-color);
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 75px;
+    font-size: 1.5rem;
+    
+}
+.header_navbar-link:hover{
+    color: var(--blandmomentum-color);
+}
+.right{
+    margin-right: 13px;
+    
+}
+.color{
+	color: var(--blandmomentum-color);
+}
+.left{
+    margin-left: 13px;
+}
+.header__navbar-item--saparate::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 2.5px solid #3b3b3b;
+    height: 18px;
+    top: 3%;
+}
+.header_navbar-input{
+    position: relative;
+    height: 100%;
+    display: flex;
+    background-color: var(--while-color);
+    height: 40px;
+    align-items: center;
+    width: 460px;
+    margin: 0 370px;
+    border-radius: 3px;
+}
+.header_input{
+    height: 100%;
+    position: relative;
+}
+.header__cart-input{
+    width: 360px;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 0 16px 0 8px;
+    border-radius: 3px;
+}
+.header__button{
+    height: 40px;
+    width: 76px;
+    background-color: var(--blandmomentum-color);
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    font-weight: 500;
+    color: var(--while-color);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.header__button:hover{
+    background-color: var(--momentum-color);
+}
+.margin-top{
+	margin-top: 35px;
+	height: 1200px;
+}
+.container_img{
+    position: relative;
+    padding-top: 50%;
+    width: 100%;
+    background-image: url("http://mauweb.monamedia.net/rolex/wp-content/uploads/2018/12/slider3-2.jpg");
+}
+.container_letter--saparate::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 2.5px solid var(--blandmomentum-color);
+    height: 190px;
+    top: 8%;
+}
+.container_letter{
+    position: absolute;
+    color: var(--blandmomentum-color);
+    text-align: left;
+    width: 650px;
+    bottom: 450px;
+    left: 300px;
+}
+.container_letter-header{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 16.5px 0;
+}
+.container_letter-title{
+    font-size: 3.8rem;
+    margin: 7px 0px;
+    font-weight: 500;
+}
+.container_letter-p{
+    margin: 20px 0;
+    font-size: 2rem;
+    font-weight: 300;
+    width: 600px;
+    line-height: 1.5;
+}
+.container_letter-magin{
+    padding-left: 30px;
+}
+.container_sellingproducts{
+    font-size: 5.5rem;
+    margin: 35px 0;
+    text-align: center;
+    font-weight: 800;
+}
+.container_selling-blandmomentum{
+    color: var(--blandmomentum-color);
+}
+.home_product-a_paddingright{
+    padding-right: 15px;
+}
+.home_product-a_paddingleft{
+    padding-left: 15px;
+}
+.home_product-item{
+    display: block;
+    position: relative;
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1); */
+    transition: transform  linear 0.3s;
+    will-change: transform;
+}
+.home_product-item:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 1px 30px 0 rgb(0 0 0 / 20%);
+}
+.home_product{
+    margin-top: 70px;
+}
+.home_product-poster{
+    width: 586px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.home_product-poster-item{
+    position: relative;
+}
+.home_product-poster-item-cart{
+    
+}
+.home_product-item_poster{
+    padding-top: 100%;
+    width: auto;
+    height: auto;
+}
+.padding_right{
+    padding-right: 27px;
+}
+.home_product-poster-item_a{
+    width: 586px;
+    height: 300px;
+    border-radius: 2px;
+}
+.home_product-poster-item_note{
+    position: absolute;
+    bottom: 75px;
+    left: 100px;
+    color: var(--while-color);
+}
+.container_poster--saparate::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-bottom: 2.5px solid var(--blandmomentum-color);
+    width: 85px;
+}
+.home_product-poster-item_note-h3{
+    font-size: 2rem;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.home_product-poster-item_note-h2{
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 15px;
+}
+.footer{
+    border-top: 4px solid var(--momentum-color);
+    padding-top: 50px;
+    background-color: var(--primary-color);
+}
+.footer__heading{
+    font-size: 1.4rem;
+    color: var(--while-color);
+}
+.footer__list{
+    padding-left: 0;
+    list-style: none;
+}
+.footer__list-item{
+    margin-bottom: 12px;
+}
+.footer-item__link{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:var(--blandmomentum-color);
+    padding: 2px 0;
+    display: flex;
+    align-items: center;
+} 
+.footer-item__link:hover{
+    color: var(--momentum-color);
+}
+.footer-item__icon{
+    font-size: 1.6rem;
+    margin: -1px 8px 0 0;
+}
+.footer__check{
+    color: transparent;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.check{
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background-color: var(--while-color);
+    margin: 0 8px 8px 0;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 0.125rem;    
+}
+.footer__chek-app{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    top: 4px;
+    position: absolute;
+}
+.footer__chek-app-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.footer__dow{
+    display: flex;
+}
+.footer__dow-QA{
+    width: 88px;
+    height: 88px;
+    border: 1px solid var(--border-color);
+}
+.footer__dow-apps{
+    margin-left: 16px;
+    color: transparent;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer__dow-apps-link{
+    width: 68px;
+    height: 16px;
+    padding: 1px;
+    margin-bottom: 8px;
+    background-color: var(--while-color);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 0.2);
+    border-radius: 2px;
+}
+.footer__dow-apps-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.footer__bottom{
+    background-color: #f5f5f5;
+    padding: 47px 0 37px 0;
+}
+.footer__text{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 13px;
+    color: #585858;
+}
+.home-product__pagiantion{
+    margin: 48px 0 32px 0;
+}

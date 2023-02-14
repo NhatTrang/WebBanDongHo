@@ -1,0 +1,31 @@
+.container_history{
+	min-height: 500px;
+    margin-top: 50px;
+}
+.container_history-h1{
+	font-size: 28px;
+	margin-bottom: 50px;
+}
+.container_history-header{
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.container_history-body{
+	display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+.header_name{
+	width: 230px;
+}
+.body_name{
+	width: 230px;
+    font-weight: 300;
+}
+.body_price{
+	font-weight: 600;
+}
